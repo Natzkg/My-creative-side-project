@@ -1,0 +1,238 @@
+.bg-photo-container {
+    word-break: break-word;
+    word-wrap: break-word;
+    color: #676767;
+    font: 15px Roboto, sans-serif;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+
+
+
+}
+
+.bg-photo-overlay {
+    word-break: break-word;
+    word-wrap: break-word;
+    color: #676767;
+    font: 15px Roboto, sans-serif;
+    background: linear-gradient(175deg, rgba(228,228,237,0.2595413165266106) 1%, rgba(241,70,127,0.592874649859944) 45%, rgba(0,212,255,1) 90%);
+    background-size: cover;
+    height: 600px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.bg-photo {
+
+    word-break: break-word;
+    word-wrap: break-word;
+    color: #676767;
+    font: 15px Roboto, sans-serif;
+    background-attachment: scroll !important;
+    background-size: cover;
+    filter: blur(0px);
+    height: calc(100% + 2 * 0px);
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: calc(100% + 2 * 0px);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/041/055/original/a-j-unsplash.jpg?1658318578);
+
+}
+
+p {
+    text-align: left;
+    padding: 0.5%;
+    margin: 0.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2em;
+}
+
+h3 {
+    text-align: center;
+    font-size: x-large;
+    color: #0077b5;
+}
+
+h2 {
+    text-align: center;
+    font-size: medium;
+}
+
+iframe {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 3%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+
+}
+
+p {
+    color: #676767;
+    text-decoration: none;
+    
+}
+
+h4 {
+    font-family: monospace;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h5 {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.container {
+    position: relative;
+    width: 900px;
+    height: 2200px;
+    margin: 240px auto;
+    background: #f8d0d2;
+}
+
+.container .box {
+    position: absolute;
+    width: 600px;
+    height: 2000px;
+    background: white;
+    float: left;
+    margin: 150px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+
+
+.social-link ul {
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-link ul li {
+    list-style: none;
+    margin: 0 15px;
+    display: inline;
+
+}
+
+.social-link ul li .fab {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+}
+
+.social-link ul li .fab:hover {
+    color: #fff;
+}
+
+.social-link ul li a {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.social-link ul li a:hover {
+    transform: translate(0, -10%);
+}
+
+.social-link ul li:nth-child(1) a:hover {
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.social-link ul li:nth-child(2) a:hover {
+    background-color: #FD1D1D;
+}
+
+.social-link ul li:nth-child(3) a:hover {
+    background-color: #E4405F;
+}
+
+.social-link ul li:nth-child(4) a:hover {
+    background-color: #0077b5;
+
+}
+
+.social-link ul li:nth-child(5) a:hover {
+    background-color: #000;
+}
+
+button {
+    color: white;
+    background: #faa7b8;
+    padding: 18px 28px;
+    display: block;
+    margin: 0 auto;
+    transition: all 200ms ease-in-out;
+    border: 1px solid #faa7b8;
+    border-radius: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    font-size: 100%;
+
+}
+
+button:hover {
+    background: white;
+    cursor: pointer;
+    color: black;
+}
