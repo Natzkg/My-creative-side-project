@@ -3,16 +3,22 @@
     word-break: break-word;
     word-wrap: break-word;
     color: #676767;
+    padding: 30px 40px;
     
-    height: 600px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     width: 100%;
-    z-index: 1;
-
-
+    z-index: 20;
 
 }
+
+@media screen and (min-width: 1287px){
+    .bg-photo-container{
+        margin-left: 284px;
+   
+    }
+}
+
 
 .bg-photo-overlay {
     word-break: break-word;
@@ -20,6 +26,7 @@
     color: #676767;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    font-weight: 80;
     background: linear-gradient(175deg, rgba(228,228,237,0.2595413165266106) 1%, rgba(241,70,127,0.592874649859944) 45%, rgba(0,212,255,1) 90%);
     background-size: cover;
     height: 600px;
@@ -48,21 +55,26 @@
 
 p {
     text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     padding: 0.5%;
     margin: 0.5%;
     font-family: 'Poppins', sans-serif;
     line-height: 2em;
 }
 
-h3 {
+h2 {
     text-align: center;
-    font-size: x-large;
+    font-weight: 500;
     color: #0077b5;
 }
 
-h2 {
+h3 {
     text-align: center;
-    font-size: medium;
+    font-weight: 400;
 }
 
 iframe {
@@ -101,7 +113,7 @@ a {
 
 h5 {
     text-align: center;
-    font-size: 14px;
+    font-weight: 400;
 }
 
 
